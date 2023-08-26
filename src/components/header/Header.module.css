@@ -1,0 +1,52 @@
+.header {
+    font-family: "Inter", sans-serif;
+    color: white;
+    width: 100%;
+    background-color: #d52b1e;
+  
+    padding: 1rem 5rem;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: fixed;
+    top: 0;
+  }
+  
+  .cart {
+    display: flex;
+    gap: 0.5rem;
+  
+    align-items: center;
+  
+    width: 8rem;
+    position: relative;
+  }
+  
+  .cart:hover {
+    cursor: pointer;
+  }
+  
+  .productsAmount {
+    background-color: white;
+    color: #d52b1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    font-size: 0.6rem;
+  
+    position: absolute;
+    top: -0.5rem;
+    left: 0.8rem;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .header {
+      padding: 1rem 2rem;
+    }
+  }
+  
