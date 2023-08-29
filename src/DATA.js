@@ -97,6 +97,26 @@ export const DATA = [
         "https://ardiaprod.vtexassets.com/arquivos/ids/184551/Agua-Mineral-sin-Gas-Villavicencio-2-Lts-_1.jpg",
       discount: null,
       offert: ""
+    },
+    {
+      id: 11,
+      name: "Cerveza Rubia Stella Artois 410 Ml.",
+      brand: "STELLA ARTOIS",
+      price: "669,00",
+      image:
+        "https://carrefourar.vtexassets.com/arquivos/ids/228318/7792798010615_01.jpg",
+      discount: 25,
+      offert: ""
+    },
+    {
+      id: 12,
+      name: "Cerveza Brahma 473 Ml.",
+      brand: "BRAHMA",
+      price: "640,00",
+      image:
+        "https://carrefourar.vtexassets.com/arquivos/ids/342943/7792798013838_02.jpg",
+      discount: null,
+      offert: ""
     }
   ];
   
